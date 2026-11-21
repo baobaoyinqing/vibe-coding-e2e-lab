@@ -10,6 +10,10 @@ class ResponseTests(unittest.TestCase):
         self.assertIn("text/html", content_type)
         self.assertIn("Vibe Coding", body)
 
+    def test_home_page_contains_gitops_welcome(self):
+        _, _, body = response_for("/")
+        self.assertIn("我的第一个 GitOps 应用", body)
+
     def test_health_check(self):
         status, content_type, body = response_for("/healthz")
         self.assertEqual(status, 200)

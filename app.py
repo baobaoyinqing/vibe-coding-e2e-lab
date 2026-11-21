@@ -12,7 +12,7 @@ def response_for(path: str) -> tuple[int, str, str]:
 <html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>Vibe Coding Lab</title>
 <body style="font: 1.1rem system-ui; max-width: 48rem; margin: 3rem auto; padding: 0 1rem">
-<h1>你好，Vibe Coding！</h1>
+<h1>我的第一个 GitOps 应用</h1>
 <p>这段文字正在本机 kind Kubernetes 集群中运行。</p>
 <p>试试 <code>/healthz</code> 健康检查接口。</p>
 </body></html>"""
