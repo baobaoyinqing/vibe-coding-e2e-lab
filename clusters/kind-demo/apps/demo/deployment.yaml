@@ -20,7 +20,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: demo
-          image: ghcr.io/baobaoyinqing/vibe-coding-e2e-lab:e3137a6e9fbb7f46a7bef98886aa32c2769b26b7 
+          image: ghcr.io/baobaoyinqing/vibe-coding-e2e-lab:f73cafca79f35314e5ee9bd01f3af890b8a2b5e0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
